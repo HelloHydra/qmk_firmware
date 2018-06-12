@@ -111,7 +111,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {_______, KC_PGUP,    KC_HOME,    KC_UP,      KC_END,     _______,    KC_EQL,  KC_7,    KC_8,    KC_9,    KC_0,    KC_GRV },
   {_______, KC_PGDN,    KC_LEFT,    KC_DOWN,    KC_RGHT,    KC_ENT,     KC_LBRC, KC_4,    KC_5,    KC_6,    KC_RBRC, _______},
   {_______, RGUI(KC_1), RGUI(KC_2), RGUI(KC_3), RGUI(KC_4), RGUI(KC_5), KC_MINS, KC_1,    KC_2,    KC_3,    KC_BSLS, _______},
-  {_______, _______,    _______,    _______,    _______,    _______,    _______, _______, _______, _______, _______, _______}
+  {_______, _______,    _______,    _______,    _______,    _______,    _______, _______, _______, KC_DOT,  _______, _______}
 },
 
 /* Raise
@@ -129,7 +129,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {_______, KC_PGUP,    KC_HOME,    KC_UP,      KC_END,     _______,    KC_EQL,  KC_7,    KC_8,    KC_9,    KC_0,    KC_GRV },
   {_______, KC_PGDN,    KC_LEFT,    KC_DOWN,    KC_RGHT,    KC_ENT,     KC_LBRC, KC_4,    KC_5,    KC_6,    KC_RBRC, _______},
   {_______, RGUI(KC_1), RGUI(KC_2), RGUI(KC_3), RGUI(KC_4), RGUI(KC_5), KC_MINS, KC_1,    KC_2,    KC_3,    KC_BSLS, _______},
-  {_______, _______,    _______,    _______,    _______,    _______,    _______, _______, _______, _______, _______, _______}
+  {_______, _______,    _______,    _______,    _______,    _______,    _______, _______, _______, KC_DOT,  _______, _______}
 },
 
 /* Plover layer (http://opensteno.org)
