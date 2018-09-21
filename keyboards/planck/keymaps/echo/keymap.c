@@ -42,22 +42,22 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_LOWER] = {
   {_______, KC_PGUP, KC_HOME, KC_UP,   KC_END,  _______, KC_EQL,  KC_7,    KC_8,    KC_9,    KC_0,    KC_GRV },
-  {KC_ENT,  KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_LBRC, KC_4,    KC_5,    KC_6,    KC_RBRC, KC_ESC },
+  {KC_ENT,  KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_LBRC, KC_4,    KC_5,    KC_6,    KC_RBRC, KC_ENT },
   {_______, _______, _______, _______, _______, _______, KC_MINS, KC_1,    KC_2,    KC_3,    KC_BSLS, _______},
   {_______, _______, _______, _______, _______, _______, KC_DEL,  _______, _______, KC_DOT,  _______, _______}
 },
 
 [_RAISE] = {
   {_______, KC_PGUP, KC_HOME, KC_UP,   KC_END,  _______, KC_EQL,  KC_7,    KC_8,    KC_9,    KC_0,    KC_GRV },
-  {KC_ENT,  KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_LBRC, KC_4,    KC_5,    KC_6,    KC_RBRC, KC_ESC },
+  {KC_ENT,  KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_LBRC, KC_4,    KC_5,    KC_6,    KC_RBRC, KC_ENT },
   {_______, _______, _______, _______, _______, _______, KC_MINS, KC_1,    KC_2,    KC_3,    KC_BSLS, _______},
   {_______, _______, _______, _______, _______, _______, KC_DEL,  _______, _______, KC_DOT,  _______, _______}
 },
 
 [_ADJUST] = {
-  {RESET,   _______, _______, KC_F14,  KC_F15,  _______, _______, _______, _______, _______, _______, _______},
-  {_______, _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, _______, _______, _______, _______, _______},
-  {_______, _______, KC_MPLY, KC_MRWD, KC_MFFD, _______, _______, _______, _______, _______, _______, _______},
+  {RESET,   _______, _______, KC_F14,  KC_F15,  _______, _______, KC_F7,   KC_F8,   KC_F9,   _______, _______},
+  {_______, _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, KC_F4,   KC_F5,   KC_F6,   _______, _______},
+  {_______, _______, KC_MPLY, KC_MRWD, KC_MFFD, _______, _______, KC_F1,   KC_F2,   KC_F3,   _______, _______},
   {_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______}
 }
 
