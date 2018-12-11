@@ -44,14 +44,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {_______, KC_PGUP, KC_HOME, KC_UP,   KC_END,  _______, KC_EQL,  KC_7,    KC_8,    KC_9,    KC_0,    KC_GRV },
   {KC_ENT,  KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_LBRC, KC_4,    KC_5,    KC_6,    KC_RBRC, KC_ENT },
   {_______, _______, _______, _______, _______, _______, KC_MINS, KC_1,    KC_2,    KC_3,    KC_BSLS, _______},
-  {_______, _______, _______, _______, _______, _______, KC_DEL,  _______, _______, KC_DOT,  _______, _______}
+  {_______, _______, _______, _______, _______, _______, _______, _______, _______, KC_DOT,  _______, _______}
 },
 
 [_RAISE] = {
   {_______, KC_PGUP, KC_HOME, KC_UP,   KC_END,  _______, KC_EQL,  KC_7,    KC_8,    KC_9,    KC_0,    KC_GRV },
   {KC_ENT,  KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_LBRC, KC_4,    KC_5,    KC_6,    KC_RBRC, KC_ENT },
   {_______, _______, _______, _______, _______, _______, KC_MINS, KC_1,    KC_2,    KC_3,    KC_BSLS, _______},
-  {_______, _______, _______, _______, _______, _______, KC_DEL,  _______, _______, KC_DOT,  _______, _______}
+  {_______, _______, _______, _______, _______, _______, _______, _______, _______, KC_DOT,  _______, _______}
 },
 
 [_ADJUST] = {
